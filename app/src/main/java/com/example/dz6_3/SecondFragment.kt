@@ -29,13 +29,13 @@ class SecondFragment : Fragment() {
     }
 
     private fun loadData() {
-        list.add(Song("Jasmine", "DPR LIVE", "3:12", 1))
-        list.add(Song("Cheese & Wine", "DPR LIVE", "3:12", 2))
-        list.add(Song("Martini Blue", "DPR LIVE", "3:16", 3))
-        list.add(Song("Jam & Butterfly", "DPR LIVE", "3:15", 4))
-        list.add(Song("Text me", "DPR LIVE", "3:17", 5))
-        list.add(Song("To myself", "DPR LIVE", "3:14", 6))
-        list.add(Song("thirst", "DPR LIVE", "3:15", 7))
+        list.add(Song("Круглый год", "Anacondaz", "4:20", 1))
+        list.add(Song("Englishman", "Sting", "3:12", 2))
+        list.add(Song("Моя игра", "Basta", "3:16", 3))
+        list.add(Song("Инкогнито", "Picnic", "3:10", 4))
+        list.add(Song("Лесник", "Король И Шут", "3:17", 5))
+        list.add(Song("Трасса Е-95", "Алиса", "3:36", 6))
+        list.add(Song("Штиль", "Ария", "5:35", 7))
     }
 
     private fun initAdapter() {
